@@ -1,7 +1,9 @@
 devDependencies:
   '@types/react': 16.9.42
+  '@types/react-dom': 16.9.8
   immer: 7.0.5
   react: 16.13.1
+  react-dom: 16.13.1_react@16.13.1
   typescript: 3.9.6
   use-immer: 0.4.0_immer@7.0.5+react@16.13.1
 lockfileVersion: 5.1
@@ -10,6 +12,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-KfRL3PuHmqQLOG+2tGpRO26Ctg+Cq1E01D2DMriKEATHgWLfeNDmq9e29Q9WIky0dQ3NPkd1mzYH8Lm936Z9qw==
+  /@types/react-dom/16.9.8:
+    dependencies:
+      '@types/react': 16.9.43
+    dev: true
+    resolution:
+      integrity: sha512-ykkPQ+5nFknnlU6lDd947WbQ6TE3NNzbQAkInC2EKY1qeYdTKp7onFusmYZb+ityzx2YviqT6BXSu+LyWWJwcA==
   /@types/react/16.9.42:
     dependencies:
       '@types/prop-types': 15.7.3
@@ -17,6 +25,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-iGy6HwfVfotqJ+PfRZ4eqPHPP5NdPZgQlr0lTs8EfkODRBV9cYy8QMKcC9qPCe1JrESC1Im6SrCFR6tQgg74ag==
+  /@types/react/16.9.43:
+    dependencies:
+      '@types/prop-types': 15.7.3
+      csstype: 2.6.11
+    dev: true
+    resolution:
+      integrity: sha512-PxshAFcnJqIWYpJbLPriClH53Z2WlJcVZE+NP2etUtWQs2s7yIMj3/LDKZT/5CHJ/F62iyjVCDu2H3jHEXIxSg==
   /csstype/2.6.11:
     dev: true
     resolution:
@@ -50,6 +65,18 @@ packages:
     dev: true
     resolution:
       integrity: sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
+  /react-dom/16.13.1_react@16.13.1:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.7.2
+      react: 16.13.1
+      scheduler: 0.19.1
+    dev: true
+    peerDependencies:
+      react: ^16.13.1
+    resolution:
+      integrity: sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
   /react-is/16.13.1:
     dev: true
     resolution:
@@ -64,6 +91,13 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
+  /scheduler/0.19.1:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: true
+    resolution:
+      integrity: sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
   /typescript/3.9.6:
     dev: true
     engines:
@@ -83,7 +117,9 @@ packages:
       integrity: sha512-mxx4jbRRc1/56geSc3VHx8gg3FvlzUpQPfVNJXtU1NRK/iTdK0pV3k3YPi7iFUcCM8YJ6/0dUBENyuk3WO/gxw==
 specifiers:
   '@types/react': ^16.9.42
+  '@types/react-dom': ^16.9.8
   immer: ^7.0.5
   react: ^16.13.1
+  react-dom: ^16.13.1
   typescript: ^3.9.6
   use-immer: ^0.4.0
