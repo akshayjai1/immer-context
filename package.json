@@ -1,13 +1,18 @@
 {
   "name": "immer-context",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "wrap you function component with IContext to give it a context, which can be utilized by it's child component",
   "main": "lib/index.js",
   "types": "lib",
   "scripts": {
     "build": "tsc -p ."
   },
-  "keywords": [],
+  "keywords": [
+    "immer",
+    "hooks",
+    "context",
+    "mini store"
+  ],
   "author": "",
   "license": "ISC",
   "peerDependencies": {
