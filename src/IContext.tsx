@@ -4,7 +4,7 @@ import { useImmer } from './useImmer';
 const context = createContext({});
 const updateContext = createContext({});
 
-export const useIContext = () => {
+export const useIContext = (): [any, any] => {
   return [useContext(context), useContext(updateContext)];
 };
 export const IContext = (props: any) => {
